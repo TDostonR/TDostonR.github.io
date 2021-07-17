@@ -1,0 +1,490 @@
+.container {
+    max-width: 1130px;
+    padding: 0px 15px;
+    margin: 0px auto;
+}
+
+/* ========================== Main ========================= */
+
+.main-screen__bg {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.page {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-screen {
+    flex: 1 0 100%;
+    position: relative;
+}
+
+/* ========================== Main ========================= */
+
+
+/* ========================== Header ========================= */
+
+.header {
+    position: absolute;
+    width: 100%;
+    z-index: 50;
+    left: 0;
+    top: 35px;
+}
+
+.header__row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85px;
+}
+
+.header-logo {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%);
+}
+
+.header-menu__list {
+    display: flex;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.header-menu__list li {
+    padding: 0px 37.5px;
+}
+
+.header-menu__list li:nth-child(2) {
+    padding: 0px 110px 0px 37.5px;
+}
+
+.header-menu__list li:nth-child(3) {
+    padding: 0px 37.5px 0px 110px;
+}
+
+.menu__link {
+    font-family: 'LatoBold';
+    font-size: 13px;
+    color: #4d4959;
+    letter-spacing: 2.6px;
+    text-transform: uppercase;
+}
+
+/* ========================== Header ========================= */
+
+
+/* ========================== Generation ========================= */
+
+.generation {
+    background-color: #f7f7f7;
+    padding: 120px 0;
+}
+
+.block {
+    text-align: center;
+}
+
+.block__icon {
+    margin: 0px 0px 33px 0px;
+}
+
+.block__title {
+    font-family: 'LatoBold';
+    font-size: 18px;
+    color: #353738;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3.6px;
+    margin: 0px 0px 20px 0px;
+}
+
+.block__text {
+    font-family: 'LatoRegular';
+    font-size: 18px;
+    color: #848789;
+    line-height: 34px;
+}
+
+/* ========================== Generation ========================= */
+
+
+/* ========================== Brands ========================= */
+
+.brands__row {
+    display: flex;
+}
+
+.brands__content {
+    padding: 70px 65px 55px 65px;
+    position: relative;
+}
+
+.brands__content:after {
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    margin: 0px 0px 0px -10px;
+    content: '';
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #fff;
+}
+
+.brands__column {
+    flex: 0 1 33.333%;
+}
+
+.brands__column_b {
+    flex: 0 1 66.667%;
+}
+
+.brands__text {
+    font-family: 'LatoRegular';
+    font-size: 16px;
+    color: #848789;
+    line-height: 30px;
+    text-align: justify;
+}
+
+.brands__text:after {
+    content: '';
+    display: block;
+    margin: 35px auto 0px auto;
+    width: 50px;
+    height: 1px;
+    background-color: #ebebeb;
+}
+
+.item {
+    height: 100%;
+    display: block;
+    position: relative;
+}
+
+.item__logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.item__image {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.brands__image {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 0px 0px 37.51% 0px;
+}
+
+/* ========================== Brands ========================= */
+
+
+
+/* ========================== Brands Rev ========================= */
+
+.brands__rev {
+    order: 1;
+}
+
+.brands_rev__column_b {
+    flex: 0 1 66.667%;
+    order: 2;
+}
+
+.brands__block {
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* ========================== Brands Rev ========================= */
+
+
+
+/* ========================== Slider ========================= */
+
+.slider {
+    background-color: #f7f7f7;
+    padding: 120px 0px 60px 0px;
+}
+
+.slider__item {
+    text-align: center;
+}
+
+.slider__icon {
+    margin: 0px 0px 37px 0px;
+    color: #56c7ee;
+    font-size: 27px;
+}
+
+.slider__title {
+    margin: 0px 0px 20px 0px;
+    color: #353738;
+    font-size: 18px;
+    font-family: 'LatoBold';
+}
+
+.slider__title span {
+    font-family: 'LatoLight';
+    font-size: 18px;
+    color: #848789;
+}
+
+.slider__text {
+    font-family: 'LatoItalic';
+    font-size: 24px;
+    color: #848789;
+    line-height: 34px;
+    text-align: center;
+}
+
+/* ========================== Slider ========================= */
+
+
+
+/* ========================== Shop ========================= */
+
+.shop-top {
+    display: flex;
+}
+
+.shop_column {
+    flex: 0 1 16.666%;
+}
+
+.column-shop__b {
+    flex: 0 1 33.333%;
+}
+
+.shop-left__top {
+    display: flex;
+}
+
+.shop-block__one {
+    padding: 0px 0px 100% 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.shop-block__two {
+    padding: 0px 0px 100% 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.shop-left__column {
+    flex: 0 1 50%;
+}
+
+.shop-left__bottom {
+    padding: 0px 0px 50% 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.shop-middle__one {
+    padding: 0px 0px 200.5% 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.shop-middle__two {
+    padding: 0px 0px 200.5% 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.shop-right__column {
+    flex: 0 1 50%;
+}
+
+.shop-right__bottom {
+    display: flex;
+}
+
+.shop-right__one {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0px 0px 100% 0px;
+}
+
+.shop-bottom {
+    background-color: #282f35;
+    padding: 75px 0px;
+    text-align: center;
+}
+
+.shop__btn {
+    display: inline-block;
+    height: 50px;
+    letter-spacing: 2.8px;
+    line-height: 48px;
+    color: #fff;
+    padding: 0px 60px;
+    font-size: 14px;
+    font-family: 'LatoBold';
+    text-transform: uppercase;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.shop__btn:hover {
+    background-color: #fff;
+    color: #000;
+    text-decoration: none;
+}
+
+/* ========================== Shop ========================= */
+
+
+/* ========================== Subscribe ========================= */
+
+.subscribe__body {
+    max-width: 534px;
+    margin: 0px auto;
+    text-align: center;
+    padding: 110px 0px;
+}
+
+.subscribe__logo {
+    margin: 0px 0px 39px 0px;
+}
+
+.subscribe__label {
+    color: #848789;
+    font-family: 'LatoItalic';
+    font-size: 24px;
+    margin: 0px 0px 35px 0px;
+}
+
+.subscribe__form {
+    display: flex;
+}
+
+.subscribe__input {
+    flex: 1 1 auto;
+    padding: 0px 8px 0px 0px;
+}
+
+.input {
+    width: 100%;
+    height: 69px;
+    border: 1px solid #d3d7d9;
+    background-color: #fff;
+    padding: 0px 28px;
+    font-size: 20px;
+    font-family: 'LatoItalic';
+}
+
+.subscribe_button {
+    flex: 0 0 126px;
+}
+
+.subscribe_btn {
+    width: 126px;
+    height: 69px;
+    line-height: 69px;
+    color: #fff;
+    font-size: 24px;
+    font-family: 'LatoLight';
+    text-transform: uppercase;
+    background-color: #64c29e;
+    border: none;
+}
+
+/* ========================== Subscribe ========================= */
+
+
+/* ========================== Footer ========================= */
+
+
+.footer {
+    background-color: #f7f7f7;
+}
+
+.footer__row {
+    display: flex;
+    padding: 100px 0px;
+    text-align: center;
+}
+
+.footer__column {
+    flex: 0 1 33.333%;
+}
+
+.footer__address {
+    text-align: justify;
+    font-family: 'LatoItalic';
+    font-size: 14px;
+    color: #848789;
+    line-height: 18px;
+}
+
+.footer__address p:first-child {
+    font-family: 'LatoBold';
+}
+
+.footer__social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social__link {
+    margin: 0px 7.5px;
+}
+
+.footer__dev {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.dev_text {
+    font-family: 'LatoItalic';
+    font-size: 14px;
+    color: #848789;
+    padding: 0px 9px 0px 0px;
+}
+
+/* ========================== Footer ========================= */
