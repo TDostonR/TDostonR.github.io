@@ -1,0 +1,43 @@
+/* font-family: "MontserratRegular"; */
+@font-face {
+	font-family: "MontserratRegular";
+	src: url("../fonts/MontserratRegular/MontserratRegular.eot");
+	src: url("../fonts/MontserratRegular/MontserratRegular.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/MontserratRegular/MontserratRegular.woff") format("woff"),
+	url("../fonts/MontserratRegular/MontserratRegular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+/* font-family: "MontserratMedium"; */
+@font-face {
+	font-family: "MontserratMedium";
+	src: url("../fonts/MontserratMedium/MontserratMedium.eot");
+	src: url("../fonts/MontserratMedium/MontserratMedium.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/MontserratMedium/MontserratMedium.woff") format("woff"),
+	url("../fonts/MontserratMedium/MontserratMedium.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+/* font-family: "MontserratSemiBold"; */
+@font-face {
+	font-family: "MontserratSemiBold";
+	src: url("../fonts/MontserratSemiBold/MontserratSemiBold.eot");
+	src: url("../fonts/MontserratSemiBold/MontserratSemiBold.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/MontserratSemiBold/MontserratSemiBold.woff") format("woff"),
+	url("../fonts/MontserratSemiBold/MontserratSemiBold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+/* font-family: "PlayFairDisplayBold"; */
+@font-face {
+	font-family: "PlayFairDisplayBold";
+	src: url("../fonts/PlayFairDisplayBold/PlayFairDisplayBold.eot");
+	src: url("../fonts/PlayFairDisplayBold/PlayFairDisplayBold.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/PlayFairDisplayBold/PlayFairDisplayBold.woff") format("woff"),
+	url("../fonts/PlayFairDisplayBold/PlayFairDisplayBold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
