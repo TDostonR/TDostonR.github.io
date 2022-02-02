@@ -1,0 +1,505 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #232222;
+}
+
+.container {
+    max-width: 1220px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+
+/* HEADER / START */
+
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 27px;
+}
+
+.logo {
+    margin-left: 16px;
+}
+
+.header-top__phone {
+    margin-top: 11px;
+    margin-right: 43px;
+}
+
+.menu {
+    margin-top: 16px;
+}
+
+.menu-btn {
+    width: 40px;
+    border: none;
+    background-color: transparent;
+    padding: 13px 0;
+    position: relative;
+    display: none;
+    z-index: 10;
+}
+
+.menu-btn::after,
+.menu-btn::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background-color: #001e64;
+}
+
+.menu-btn::before {
+    top: 0;
+}
+
+.menu-btn::after {
+    bottom: 0;
+}
+
+.menu-btn span {
+    display: block;
+    height: 4px;
+    background-color: #001e64;
+}
+
+.menu-list {
+    display: flex;
+}
+
+.menu-list__item + .menu-list__item {
+    margin-left: 30px;
+}
+
+.menu-list__link {
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 500;
+    color: #001E64;
+}
+
+.menu-list__link:hover {
+    border-bottom: 1px solid #001E64;
+}
+
+.header-content {
+    background-image: url(../images/header/header-bg.png);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    padding-bottom: 20px;
+    margin-top: -100px;
+    min-height: calc(100vh - 50px);
+}
+
+.header-content__title {
+    font-family: 'Roboto Slab', serif;
+    font-size: 72px;
+    line-height: 95px;
+    font-weight: 700;
+    color: #001e64;
+    max-width: 589px;
+    padding-top: 170px;
+    padding-left: 112px;
+    margin-bottom: 60px;
+}
+
+.header-content__slider {
+    max-width: 522px;
+    padding: 57px 0 135px 112px;
+}
+
+.header-slider__text {
+    margin-bottom: 25px;
+    font-size: 18px;
+    line-height: 22px;
+    color: #fff;
+}
+
+.slick-prev,
+.slick-next {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    position: absolute;
+    left: 40px;
+}
+
+.slick-prev {
+    top: 0;
+}
+
+.slick-next {
+    bottom: 0;
+}
+
+.slick-dots {
+    list-style: none;
+    position: absolute;
+    left: 35px;
+    top: 58px;
+    bottom: 55px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.slick-dots button {
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    color: #fff;
+    font-size: 24px;
+    line-height: 28px;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.slick-active button {
+    opacity: 1;
+}
+
+.slick-dots button::before {
+    content: '0';
+}
+
+.header-content__btn {
+    text-transform: uppercase;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 32px;
+    color: #fff;
+    padding: 14px 88px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, .5);
+    margin-left: 112px;
+    display: inline-block;
+    transform: translateY(-100px);
+    position: absolute;
+    transition: all .5s;
+}
+
+.header-content__btn:hover {
+    color: #001e64;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.header-content__box {
+    display: flex;
+    justify-content: flex-end;  
+    margin-right: 30px;
+    font-size: 18px;
+    line-height: 21px;
+    color: #fff;
+}
+
+.header-content__link--active {
+    font-weight: 700;
+}
+
+
+/* HEADER / START */
+
+
+/* MAIN / START */
+
+/* ----- Product / Start ----- */
+
+.product {
+    padding-top: 100px;
+}
+
+.product-inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-name {
+    width: 510px;
+    text-align: center;
+    padding-top: 41px;
+}
+
+.product-name__item {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    cursor: pointer;
+}
+
+.product-name__item.slick-current {
+    font-weight: 700;
+    font-size: 36px;
+    color: #001e64;
+}
+
+.product-name__item + .product-name__item {
+    margin-top: 30px;
+}
+
+.product-prev {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateY(-50%);
+}
+
+.product-prev,
+.product-next {
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    cursor: pointer;
+}
+
+.product-content {
+    width: 600px;
+}
+
+.product-content__box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-content__img {
+    object-fit: cover;
+}
+
+.product-content__list {
+    width: 291px;
+    list-style: none;
+}
+
+.product-content__item {
+    margin-bottom: 30px;
+}
+
+.product-content__item span {
+    display: block;
+    margin-bottom: 10px;
+    color: #001e64;
+}
+
+.product-content__title {
+    font-family: 'Roboto Slab', serif;
+    padding-top: 20px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #001e64;
+    margin-bottom: 20px;
+}
+
+.product-content__text {
+    margin-bottom: 25px;
+}
+
+.product-content__btn {
+    font-family: 'Roboto Slab', serif;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 700;
+    padding: 12px 85px;
+    background-color: transparent;
+    text-transform: uppercase;
+    border-radius: 20px;
+    border: 1px solid #001E64;
+    display: inline-block;
+    color: #001e64;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.product-content__btn:hover {
+    background-color: #001e64;
+    color: #fff;
+}
+
+/* ----- Seafood / Start ----- */
+
+.seafood {
+    background-image: url(../images/seafood/seafood-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    padding: 290px 0 95px;
+}
+
+.seafood-items {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+}
+
+.seafood-item {
+    width: 180px;
+    min-height: 165px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-image: url(../images/seafood/shell.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* ----- Info / Start ----- */
+
+.info {
+    padding: 100px 0;
+}
+
+.info-items {
+    margin-bottom: 100px;
+}
+
+.info-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.info-item__title {
+    max-width: 490px;
+    margin-bottom: 30px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #001e64;
+}
+
+.info-item__text {
+    max-width: 420px;
+    margin-bottom: 20px;
+}
+
+.info-item--right .info-item__title {
+    max-width: 420px;
+}
+
+.info-item--right .info-item__content {
+    margin-right: 180px;
+}
+
+/* ----- Blcokquote / Start ----- */
+
+.blockquote {
+    max-width: 800px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.blockquote-text {
+    font-family: 'Roboto Slab', serif;
+    font-size: 18px;
+    line-height: 24px;
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* ----- Contacts / Start ----- */
+
+.contacts {
+    background-image: url(../images/contacts/contacts-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+}
+
+.contacts-box {
+    margin-left: auto;
+    width: 390px;
+    background-color: #fff;
+    padding: 33px 0 33px 20px;
+}
+
+.contacts-box__text {
+    width: 195px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 18px;
+    line-height: 24px;
+    color: #001e64;
+    margin-bottom: 30px;
+}
+
+.contacts-box__list {
+    list-style: none;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.contacts-box__item {
+    margin-top: 30px;
+}
+
+.contacts-box__item span {
+    display: block;
+}
+
+/* MAIN / FINISH */
+
+
+/* FOOTER / START */
+
+.footer {
+    padding: 25px 0 110px;
+}
+
+.footer-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 0 45px 0 23px;
+}
+
+.footer-inner .menu {
+    padding-bottom: 30px;
+}
+
+.footer-social__list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding-bottom: 19px;
+}
+
+.footer-social__item + .footer-social__item {
+    margin-left: 10px;
+}
+
+.footer-social__link path {
+    transition: all .5s;
+}
+
+.footer-social__link:hover path {
+    fill: #001e64;
+}
+
+/* FOOTER / FINISH */
