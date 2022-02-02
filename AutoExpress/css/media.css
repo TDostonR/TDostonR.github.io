@@ -1,0 +1,255 @@
+@media (max-width: 1140px) {
+
+    .service-inner__item:hover {
+        width: 450px;
+    }
+
+}
+
+@media (max-width: 1024px) {
+    
+    .header-images {
+        width: 80%;
+    }
+
+    .service {
+        padding-top: 250px;
+    }
+
+    .service-inner {
+        flex-wrap: wrap;
+    }
+
+    .service-inner__content {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .service-inner__list {
+        order: -1;
+        margin-bottom: 30px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .service-inner__item {
+        width: 100%;
+        text-align: center;
+    }
+
+    .service-inner__item:hover {
+        width: 100%;
+    }
+
+    .benefit-inner__images {
+        display: none;
+    }
+}
+
+@media (max-width: 900px) {
+    
+    .header-phone {
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    .header-content__title {
+        font-size: 54px;
+        line-height: 74px;
+    }
+
+    .header-content__subtitle {
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    .header-social {
+        padding: 30px 0 20px 53px;
+    }
+
+    .contact-inner {
+        display: block;
+        text-align: center;
+    }
+
+    .contact-form__title {
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .contact-list {
+        margin-bottom: 30px;
+    }
+
+    .contact-input {
+        width: 100%;
+    }
+
+    .contact-btn {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 770px) {
+    
+    .benefit-inner {
+        text-align: center;
+    }
+
+    .benefit-content__list {
+        padding: 25px 15px;
+    }
+
+    .benefit-item {
+        width: 100%;
+    }
+
+    .benefit-title {
+        margin-left: 0;
+    }
+
+}
+
+@media (max-width: 650px) {
+    
+    .footer-inner {
+        flex-wrap: wrap;
+        justify-content: center;
+        height: auto;
+        padding: 20px 0;
+        text-align: center;
+    }
+
+    .footer-social {
+        width: 100%;
+        justify-content: center;
+        margin: 25px 0;
+    }
+}
+
+@media (max-width: 600px) {
+
+    body {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .header-content {
+        padding-top: 0;
+        text-align: center;
+    }
+
+    .header-social {
+        padding: 30px 0 20px 0px;
+    }
+
+    .social {
+        justify-content: center;
+    }
+
+    .service {
+        padding-top: 150px;
+    }
+
+    .title {
+        font-size: 28px;
+        line-height: 36px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .title::after {
+        display: none;
+    }
+
+    .service-inner__item::after {
+        top: 5px;
+    }
+
+    .service-inner__content {
+        text-align: center;
+    }
+
+    .benefit-item__num {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .carousel-item__img {
+        width: 100%;
+    }
+
+    .carousel .slick-dots button {
+        width: 10px;
+    }
+}
+
+@media (max-width: 520px) {
+
+    .header-top {
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .logo {
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    .header-content__title {
+        margin-bottom: 20px;
+    }
+
+    .header-images {
+        position: static;
+        width: 100%;
+    }
+    
+    .service {
+        padding-top: 50px;
+    }
+
+    .service-inner,
+    .benefit,
+    .carousel {
+        margin-bottom: 50px;
+    }
+
+    .service-inner__item {
+        padding: 10px 15px 10px 60px;
+    }
+
+    .service-inner__item::before {
+        left: 11px;
+    }
+
+    .button--decor::before {
+        right: -50px;
+        display: none;
+    }
+
+    .button--decor::after {
+        margin-left: 110px;
+        display: none;
+    }
+
+    .button--decor::before,
+    .button--decor::after {
+        display: none;
+    }
+
+    .contact-form {
+        padding: 50px 10px 75px;
+    }
+
+}
+
+@media (max-width: 340px) {
+
+    .header-content__title {
+        font-size: 44px;
+        line-height: 50px;
+    }
+    
+}
