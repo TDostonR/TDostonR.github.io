@@ -1,0 +1,280 @@
+@media (max-width: 1300px) {
+
+  .main-block__image img {
+    object-position: right;
+  }
+}
+
+@media (min-width: 1080px) {
+
+  .whoweare-content {
+    padding: 0px 0px 0px 50px;
+  }
+
+  .subscribe-body {
+    margin: 0px 30px;
+  }
+
+}
+
+@media (max-width: 990px) {
+
+  .header-menu {
+    margin: 0px 0px 0px 80px;
+  }
+
+  .main-block__body {
+    padding: 120px 0px 191px 0px;
+  }
+
+  .main-block__image {
+    opacity: 0.5;
+  }
+
+  .services-column {
+    flex: 0 1 50%;
+  }
+
+  .services-column:last-child {
+    flex: 1 1 100%;
+  }
+
+  .services-column:not(:last-child) {
+    margin: 0px 0px 30px 0px;
+  }
+
+  .advantages {
+    padding: 50px 0px;
+  }
+
+  .advantages-column {
+    flex: 0 1 50%;
+  }
+
+  .practice-column {
+    flex: 0 1 50%;
+  }
+
+  .practice {
+    padding: 40px 0px 80px 0px;
+  }
+
+  .whoweare {
+    padding: 50px 0px 50px 0px;
+  }
+
+  .whoweare-body {
+    flex-direction: column-reverse;
+    align-items: stretch;
+  }
+
+  .whoweare-content {
+    padding: 0;
+  }
+
+  .whoweare-header {
+    margin: 0px 0px 30px 0px;
+  }
+
+  .whoweare-title {
+    font-size: 24px;
+  }
+
+  .whoweare-video {
+    padding: 0px 0px 56.25% 0px;
+  }
+
+  .whoweare-video:not(:last-child) {
+    margin: 50px 0px 0px 0px;
+  }
+
+  .getintouch {
+    padding: 50px 0px;
+  }
+
+  .getintouch-header {
+    margin: 0px 0px 50px 0px;
+  }
+
+  .item-getintouch__active {
+    padding: 50px 15px;
+  }
+
+  .footer-column {
+    flex: 0 1 25%;
+  }
+
+  .footer-column:last-child {
+    flex: 1 1 100%;
+  }
+
+}
+
+@media (min-width: 990px) {
+
+  .getintouch-items {
+    display: flex;
+    align-items: center;
+  }
+
+}
+
+@media (min-width: 810px) {
+  
+  .subscribe-body {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .subscribe-title {
+    max-width: 270px;
+  }
+
+}
+
+@media (max-width: 770px) {
+  
+  .header-block__subtitle {
+    font-size: 30px;
+  }
+
+  .header-menu {
+    margin: 0px 0px 0px 40px;
+  }
+
+  .advantages {
+    padding: 30px 0px;
+  }
+
+  .advantages-header {
+    margin: 0px 0px 25px 0px;
+  }
+
+  .practice {
+    margin: 0px 0px 40px 0px;
+  }
+
+  .practice-header {
+    margin: 0px 0px 25px 0px;
+  }
+
+  .whoweare {
+    padding: 20px 0px 50px 0px;
+  }
+
+  .whoweare-top:not(:last-child) {
+    margin: 0px 0px 30px 0px;
+  }
+
+  .whoweare-video:not(:last-child) {
+    margin: 30px 0px 0px 0px;
+  }
+
+  .clients {
+    padding: 30px 0px;
+  }
+
+  .subscribe-body {
+    margin: 0px -15px;
+    padding: 20px 15px;
+  }
+
+  .subscribe-title {
+    margin: 0px 0px 20px 0px;
+  }
+
+  .getintouch-header {
+    margin: 0px 0px 30px 0px;
+  }
+
+  .footer-column {
+    flex: 0 1 50%;
+  }
+
+  .footer-container {
+    flex-direction: column;
+  }
+
+  .footer-copy {
+    margin: 0px 0px 15px 0px;
+    text-align: center;
+  }
+
+}
+
+@media (min-width: 770px) {
+
+  .contact-body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .contact-content {
+    padding: 0px 20px 0px 0px;
+  }
+
+}
+
+@media (min-width: 670px) {
+  
+  .services-body {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+    text-align: center;
+  }
+
+  .services-column {
+    padding: 0 15px;
+  }
+
+}
+
+@media (max-width: 630px) {
+
+  .practice-column {
+    flex: 0 1 100%;
+  }
+
+}
+
+@media (max-width: 480px) {
+
+  .header-container {
+    min-height: 85px;
+  }
+
+  .header-menu {
+    font-size: 18px;
+    margin: 0px 0px 0px 20px;
+  }
+
+  .main-block__body {
+    padding: 115px 0 160px 0;
+  }
+
+  .main-block__title {
+    font-size: 42px;
+  }
+
+  .main-block__text {
+    color: #585757;
+  }
+
+  .main-block__button {
+    flex: 1 1 100%;
+  }
+
+  .main-block__button:not(:last-child) {
+    margin-right: 10px;
+  }
+
+  .services-item {
+    padding: 25px;
+  }
+
+  .advantages-column {
+    flex: 0 1 100%;
+  }
+}
